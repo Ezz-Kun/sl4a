@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hipipal.texteditor.ui.view.ToolRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/editor_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 编辑器 -->
+
+    <com.hipipal.texteditor.ui.view.AdvancedEditText
+        android:id="@+id/editor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="top|left"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="5dp"
+        android:scrollbars="horizontal|vertical"
+        android:textCursorDrawable="@null"
+        android:transcriptMode="normal"
+        android:typeface="monospace"
+        tools:ignore="UnusedAttribute" />
+    <!-- 圆形菜单 -->
+
+    <ru.biovamp.widget.CircleLayout
+        android:id="@+id/toolLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_touch"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" >
+
+        <!-- 颜色插入 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onright"
+            android:onClick="onColor"
+            android:src="@drawable/ic_color" />
+
+        <!-- 设置按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onback"
+            android:onClick="onSetting"
+            android:src="@drawable/ic_storage" />
+        <!-- 保存按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onsave"
+            android:onClick="onSave"
+            android:src="@drawable/ic_save_a" />
+        <!-- 运行按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onplay"
+            android:onClick="onPlay"
+            android:src="@drawable/ic_go" />
+
+        <!-- 搜索按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onsearch"
+            android:onClick="onSearch"
+            android:src="@drawable/ic_search2" />
+        <!-- api查看按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onapi"
+            android:onClick="onApi"
+            android:src="@drawable/ic_menu_api" />
+        <!-- 模版插入按钮 -->
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onTemplate"
+            android:onClick="onTemplate"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+    </ru.biovamp.widget.CircleLayout>
+
+    <!-- 搜索视图 -->
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="match_parent"
+        android:layout_height="36dip"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" >
+
+        <include layout="@layout/search" />
+    </LinearLayout>
+    <!-- 工具按钮 -->
+
+    <ImageButton
+        android:id="@+id/toolBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tool_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible"
+        tools:ignore="ContentDescription" />
+
+</com.hipipal.texteditor.ui.view.ToolRelativeLayout>

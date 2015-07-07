@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="General" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="usagetracking"
+            android:summary="@string/usagetracking2"
+            android:title="@string/usagetracking1" />
+
+        <EditTextPreference
+            android:defaultValue="0"
+            android:key="use_service_port"
+            android:numeric="integer"
+            android:summary="@string/use_service_port2"
+            android:title="@string/use_service_port1" >
+        </EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Script Manager" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="show_all_files"
+            android:title="@string/show_all_files" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="use_quick_menu"
+            android:title="@string/use_quick_menu" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Script Editor" >
+        <ListPreference
+            android:defaultValue="@string/default_value_fontsize_preference"
+            android:dialogTitle="@string/dialog_title_fontsize_preference"
+            android:entries="@array/entries_fontsize_preference"
+            android:entryValues="@array/entryvalues_fontsize_preference"
+            android:key="editor_fontsize"
+            android:summary="@string/summary_fontsize_preference"
+            android:title="@string/title_fontsize_preference" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="helpForceBrowser"
+            android:summary="@string/helpForceBrowser"
+            android:title="@string/help_force_browser" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="enableAutoClose"
+            android:summary="@string/enableAutoClose"
+            android:title="@string/enable_auto_close" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="editor_no_wrap"
+            android:summary="@string/editor_no_wrap2"
+            android:title="@string/editor_no_wrap1" >
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="editor_auto_indent"
+            android:summaryOff="@string/editor_auto_indent2"
+            android:summaryOn="@string/editor_auto_indent3"
+            android:title="@string/editor_auto_indent1" >
+        </CheckBoxPreference>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Terminal" >
+        <EditTextPreference
+            android:defaultValue="140"
+            android:key="scrollback"
+            android:summary="@string/pref_scrollback_summary"
+            android:title="@string/pref_scrollback_title" />
+        <EditTextPreference
+            android:defaultValue="15"
+            android:key="fontsize"
+            android:title="@string/pref_fontsize_title" />
+
+        <org.connectbot.util.EncodingPreference
+            android:key="encoding"
+            android:summary="@string/pref_encoding_summary"
+            android:title="@string/pref_encoding_title" />
+
+        <ListPreference
+            android:defaultValue="Default"
+            android:entries="@array/list_rotation"
+            android:entryValues="@array/list_rotation_values"
+            android:key="rotation"
+            android:summary="@string/pref_rotation_summary"
+            android:title="@string/pref_rotation_title" />
+
+        <Preference
+            android:key="color"
+            android:summary="@string/summary_color_preference"
+            android:title="@string/title_color_preference" >
+            <intent android:action="com.googlecode.android_scripting.PICK_TERMINAL_COLORS" />
+        </Preference>
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="fullscreen"
+            android:summary="@string/pref_fullscreen_summary"
+            android:title="@string/pref_fullscreen_title" />
+
+        <ListPreference
+            android:entries="@array/list_delkey"
+            android:entryValues="@array/list_delkey_values"
+            android:key="delkey"
+            android:summary="@string/pref_delkey_summary"
+            android:title="@string/pref_delkey_title" />
+        <ListPreference
+            android:defaultValue="Use right-side keys"
+            android:entries="@array/list_keymode"
+            android:entryValues="@array/list_keymode_values"
+            android:key="keymode"
+            android:summary="@string/pref_keymode_summary"
+            android:title="@string/pref_keymode_title" />
+        <ListPreference
+            android:defaultValue="Ctrl+A then Space"
+            android:entries="@array/list_camera"
+            android:entryValues="@array/list_camera_values"
+            android:key="camera"
+            android:summary="@string/pref_camera_summary"
+            android:title="@string/pref_camera_title" >
+        </ListPreference>
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="keepalive"
+            android:summary="@string/pref_keepalive_summary"
+            android:title="@string/pref_keepalive_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="bumpyarrows"
+            android:summary="@string/pref_bumpyarrows_summary"
+            android:title="@string/pref_bumpyarrows_title" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hidekeyboard"
+            android:summary="@string/pref_hidekeyboard_summary"
+            android:title="@string/pref_hidekeyboard_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Terminal bell" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="bell"
+            android:title="@string/pref_bell_title" />
+
+        <org.connectbot.util.VolumePreference
+            android:key="bellVolume"
+            android:title="@string/pref_bell_volume_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="bellVibrate"
+            android:title="@string/pref_bell_vibrate_title" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Trigger Behaviour" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="hideServiceNotifications"
+            android:title="@string/pref_hide_notifications" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

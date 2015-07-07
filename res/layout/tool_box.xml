@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ru.biovamp.widget.CircleLayout
+        android:id="@+id/toolLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/bg_touch"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onright"
+            android:onClick="onRight"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_right" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onback"
+            android:onClick="onBack"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_undo_2" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onsave"
+            android:onClick="onSave"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_save_a" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onplay"
+            android:onClick="onPlay"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_go" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onsearch"
+            android:onClick="onSearch"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_search2" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onapi"
+            android:onClick="onApi"
+            android:padding="5.0dip"
+            android:src="@drawable/ic_menu_api" />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0.0dip"
+            android:layout_weight="1"
+            android:background="@drawable/tool_button"
+            android:contentDescription="@string/onTemplate"
+            android:onClick="onTemplate"
+            android:padding="5.0dip"
+            android:src="@android:drawable/ic_menu_sort_by_size" />
+    </ru.biovamp.widget.CircleLayout>
+
+    <ImageButton
+        android:id="@+id/toolBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/tool_image"
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:visibility="visible"
+        tools:ignore="ContentDescription,ContentDescription" />
+
+</RelativeLayout>

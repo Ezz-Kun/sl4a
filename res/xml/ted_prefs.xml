@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="ted_settings"
+    android:title="@string/title_settings" >
+
+    <!-- 显示 -->
+    <PreferenceCategory android:title="@string/config_cat_display" >
+
+        <!-- 显示行数 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="show_line_numbers"
+            android:summaryOn="@string/config_summary_line_numbers"
+            android:title="@string/config_title_line_numbers" />
+        <!-- 自动换行 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_break_lines"
+            android:summaryOn="@string/config_summary_word_wrap"
+            android:title="@string/config_title_word_wrap" />
+        <!-- 快速滚动 -->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="fling_to_scroll"
+            android:summary="@string/config_summary_scroll_fling"
+            android:title="@string/config_title_scroll_fling" />
+
+        <!-- 颜色主题 -->
+        <ListPreference
+            android:entries="@array/color_theme_names"
+            android:entryValues="@array/color_theme_values"
+            android:key="color_theme"
+            android:title="@string/config_title_color_theme" />
+        <!-- 字体大小 -->
+        <ListPreference
+            android:defaultValue="14"
+            android:entries="@array/text_size_names"
+            android:entryValues="@array/text_size_values"
+            android:key="text_size"
+            android:title="@string/config_title_text_size" />
+    </PreferenceCategory>
+    <!-- 其它 -->
+    <PreferenceCategory android:title="@string/config_cat_other" >
+
+        <!-- 保存 -->
+        <PreferenceScreen android:title="@string/config_cat_save" >
+
+            <!-- 行结束 -->
+            <ListPreference
+                android:defaultValue="0"
+                android:entries="@array/eol_names"
+                android:entryValues="@array/eol_values"
+                android:key="end_of_lines"
+                android:title="@string/config_title_end_of_lines" />
+            <!-- 编码 -->
+            <ListPreference
+                android:defaultValue="UTF-8"
+                android:entries="@array/encoding_names"
+                android:entryValues="@array/encoding_values"
+                android:key="encoding"
+                android:title="@string/config_title_encoding" />
+
+            <!-- 自动保存 -->
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="force_auto_save"
+                android:summaryOn="@string/config_summary_auto_save"
+                android:title="@string/config_title_auto_save" />
+            <!-- 覆盖存在文件 -->
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:dependency="force_auto_save"
+                android:key="auto_save_overwrite"
+                android:summaryOff="@string/config_summary_auto_save_overwrite_off"
+                android:summaryOn="@string/config_summary_auto_save_overwrite_on"
+                android:title="@string/config_title_auto_save_overwrite" />
+        </PreferenceScreen>
+        <!-- 撤销 -->
+        <PreferenceScreen android:title="@string/config_cat_undo" >
+
+            <!-- 允许撤销 -->
+            <CheckBoxPreference
+                android:defaultValue="true"
+                android:key="allow_undo"
+                android:title="@string/config_title_allow_undo_stack" />
+
+            <!-- 最大撤销历史 -->
+            <ListPreference
+                android:defaultValue="25"
+                android:entries="@array/max_undo_stack_values"
+                android:entryValues="@array/max_undo_stack_values"
+                android:key="max_undo_stack"
+                android:title="@string/config_title_max_undo_stack" />
+        </PreferenceScreen>
+        <!-- 搜索 -->
+        <PreferenceScreen android:title="@string/config_cat_search" >
+
+            <!-- 搜索换行 -->
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="search_wrap"
+                android:title="@string/config_title_search_wrap" />
+            <!-- 搜索匹配大小 -->
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="search_match_case"
+                android:title="@string/config_title_search_match_case" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry excluding="com/googlecode/android_scripting/facade/ui/GifImageViewTask.java" kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/QuickAction"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Crash"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SdPath"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/appcompat_v7"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ListView"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ProgressBar"/>
+	<classpathentry kind="lib" path="libs/ant.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/Crouton"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/PythonLib"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

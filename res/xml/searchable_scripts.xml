@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:hint="@string/search_description_scripts"
+    android:includeInGlobalSearch="true"
+    android:label="@string/application_title"
+    android:searchSettingsDescription="@string/search_description_scripts"
+    android:searchSuggestAuthority="com.googlecode.android_scripting.provider.scriptprovider"
+    android:searchSuggestIntentAction="android.intent.action.SEARCH"
+    android:searchSuggestPath="searchSuggestions"
+    android:voiceSearchMode="showVoiceSearchButton|launchRecognizer" >
+
+</searchable>

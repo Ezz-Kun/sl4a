@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help_force_browser">Force API Browser</string>
+    <string name="stop_all">Stop All</string>
+    <string name="application_title">SL4A</string>
+    <string name="application_nice_title">Scripting Layer for Android</string>
+    <string name="wiki_url">http://code.google.com/p/android-scripting/wiki/TableOfContents?tm=6</string>
+    <string name="youtube_url">http://www.youtube.com/view_play_list?p=07A81E6CE96F158B</string>
+    <string name="text_preferences">Text</string>
+    <string name="title_fontsize_preference">Font size</string>
+    <string name="summary_fontsize_preference">Choose character height in pixels.</string>
+    <string name="dialog_title_fontsize_preference">Font size</string>
+    <string name="title_color_preference">Colors</string>
+    <string name="summary_color_preference">Choose text color.</string>
+    <string name="dialog_title_color_preference">Text color</string>
+    <string name="keyboard_preferences">Keyboard</string>
+    <string name="title_controlkey_preference">Control key</string>
+    <string name="summary_controlkey_preference">Choose control key.</string>
+    <string name="dialog_title_controlkey_preference">Control key</string>
+    <string name="shell_preferences">Shell</string>
+    <string name="title_shell_preference">Command line</string>
+    <string name="summary_shell_preference">Specify the shell command line.</string>
+    <string name="dialog_title_shell_preference">Shell</string>
+    <string name="title_initialcommand_preference">Initial command</string>
+    <string name="summary_initialcommand_preference">Sent to the shell when it starts.</string>
+    <string name="dialog_title_initialcommand_preference">Initial Command</string>
+    <string name="default_value_fontsize_preference">10</string>
+    <string name="default_value_color_preference">1</string>
+    <string name="default_value_controlkey_preference">0</string>
+    <string name="no_scripts_message">Start adding scripts and interpreters by pressing the menu
+    button.</string>
+    <string name="no_apis_message">No matching APIs found.</string>
+    <string name="notification_action_message">Tap to open Script Monitor.</string>
+    <string name="no_running_scripts_message">There are no currently running scripts.</string>
+    <string name="script_number_message">Number of running scripts:\t</string>
+    <string name="no_triggers_message">No triggers.</string>
+    <string name="no_bluetooth_devices_message">No Bluetooth devices found.</string>
+    <string name="search_description_scripts">Search scripts</string>
+    <string name="search_description_apis">Search APIs</string>
+    <string name="prompt_process_exited">Process has exited.\nClose terminal?</string>
+    <string name="prompt_confirm_exit">Confirm exit.\nKill process?</string>
+    <string name="terminal_copy_done">Copied %1$d bytes to clipboard</string>
+    <string name="terminal_copy_start">Touch and drag\nor use directional pad\nto select area to copy</string>
+    <string name="terminal_menu_close">Close</string>
+    <string name="terminal_menu_copy">Copy</string>
+    <string name="terminal_menu_copy_all">Copy All</string>
+    <string name="terminal_menu_paste">Paste</string>
+    <string name="terminal_menu_resize">Force Size</string>
+    <string name="button_resize">Resize</string>
+
+    <!-- Name for the scrollback size preference -->
+    <string name="pref_scrollback_title">Scrollback size</string>
+    <!-- Description of the scrollback size preference -->
+    <string name="pref_scrollback_summary">Size of scrollback buffer to keep in memory for each console</string>
+    <!-- Name for the rotation mode preference -->
+    <string name="pref_rotation_title">Rotation mode</string>
+    <!-- Summary for the rotation mode preference -->
+    <string name="pref_rotation_summary">How to change rotation when keyboard popped in/out</string>
+    <!-- Name for the full screen preference -->
+    <string name="pref_fullscreen_title">Full screen</string>
+    <!-- Summary for the full screen preference -->
+    <string name="pref_fullscreen_summary">Hide status bar while in console</string>
+    <!-- Name for the keyboard shortcuts preference -->
+    <string name="pref_keymode_title">Directory shortcuts</string>
+    <!-- Summary for the keyboard shortcuts preference -->
+    <string name="pref_keymode_summary">Select how to use Alt for \'/\' and Shift for Tab</string>
+    <!-- Name for the camera shortcut usage preference -->
+    <string name="pref_camera_title">Camera shortcut</string>
+    <!-- Summary for the camera shortcut usage preference -->
+    <string name="pref_camera_summary">Select which shortcut to trigger when the camera button is pushed</string>
+    <!-- Name for the keep screen on preference -->
+    <string name="pref_keepalive_title">Keep screen awake</string>
+    <!-- Summary for the camera shortcut usage preference -->
+    <string name="pref_keepalive_summary">Prevent the screen from turning off when working in a console</string>
+    <!-- Name for the haptic feedback (bumpy arrow) preference -->
+    <string name="pref_bumpyarrows_title">Bumpy arrows</string>
+    <!-- Summary for the haptic feedback (bumpy arrow) preference -->
+    <string name="pref_bumpyarrows_summary">Vibrate when sending arrow keys from trackball</string>
+    <string name="pref_hidekeyboard_title">Hide Keyboard</string>
+    <string name="pref_hidekeyboard_summary">Hide soft keyboard in terminal on startup</string>
+    <!-- Category title for the Terminal Bell preferences -->
+    <string name="pref_bell_category">Terminal bell</string>
+    <!-- Checkbox preference title for the audible terminal bell feature -->
+    <string name="pref_bell_title">Audible bell</string>
+    <!-- Title for the slider preference to set the volume -->
+    <string name="pref_bell_volume_title">Bell volume</string>
+    <!-- Checkbox preference title for the vibrate on terminal bell feature -->
+    <string name="pref_bell_vibrate_title">Vibrate on bell</string>
+    <string name="pref_fontsize_title">Font size (pt)</string>
+    <!-- Setting for what key code is sent to the server when DEL key is pressed. -->
+    <string name="pref_delkey_title">DEL Key</string>
+    <!-- Summary for field asking what key code is sent to the server when DEL key is pressed. -->
+    <string name="pref_delkey_summary">The key code sent when DEL key is pressed</string>
+    <!-- Host character encoding preference title -->
+    <string name="pref_encoding_title">Encoding</string>
+    <!-- Host character encoding preference summary -->
+    <string name="pref_encoding_summary">Character encoding for the host</string>
+    <string name="pref_hide_notifications">Hide Notifications</string>
+    <!-- Default screen rotation preference selection -->
+    <string name="list_rotation_default">Default</string>
+    <string name="list_rotation_land">Force landscape</string>
+    <string name="list_rotation_port">Force portrait</string>
+    <!-- Selection to indicate the rotation should be selected automatically based on the tilt sensor. -->
+    <string name="list_rotation_auto">Automatic</string>
+    <!-- Preference selection to indicate use of right side of keyboard for special shortcuts. -->
+    <string name="list_keymode_right">Use right-side keys</string>
+    <!-- Preference selection to indicate use of left side of keyboard for special shortcuts. -->
+    <string name="list_keymode_left">Use left-side keys</string>
+    <!-- Preference selection to indicate never to use special shortcut keys. -->
+    <string name="list_keymode_none">Disable</string>
+    <!-- Selection to indicate pressing the Camera button should send "Ctrl+A then Space". -->
+    <string name="list_camera_ctrlaspace">Ctrl+A then Space</string>
+    <!-- Selection to indicate pressing the Camera button should send "Ctrl+A". -->
+    <string name="list_camera_ctrla">Ctrl+A</string>
+    <!-- Selection to indicate pressing the Camera button should send the "Esc" key. -->
+    <string name="list_camera_esc">Esc</string>
+    <!-- Selection to indicate pressing the Camera button should send "Esc+A". -->
+    <string name="list_camera_esc_a">Esc+A</string>
+    <!-- Selection to indicate pressing the Camera button should send nothing at all. -->
+    <string name="list_camera_none">None</string>
+    <!-- Name for the backspace character -->
+    <string name="list_delkey_backspace">Backspace</string>
+    <!-- Name for the ASCII DEL character -->
+    <string name="list_delkey_del">Delete</string>
+
+    <!-- Window title for Help index -->
+    <string name="title_help">Help</string>
+    <string name="help_acks">SL4A uses <a href="http://code.google.com/p/connectbot/">ConnectBot</a> terminal.</string>
+    <string name="help_intro">Please select a topic below for more information on a particular subject.</string>
+    <string name="enable_auto_close">Enable Auto Close</string>
+
+    <!-- 编辑器 -->
+    <string name="notice">notice</string>
+    <string name="title_editor">%1$s</string>
+    <string name="title_editor_dirty">%1$s *</string>
+    <string name="title_editor_readonly">[%1$s]</string>
+    <string name="title_settings">Settings </string>
+    <string name="config_cat_display">Display</string>
+    <string name="config_summary_line_numbers">Display the line number at the left of the page</string>
+    <string name="config_title_line_numbers">Show line numbers</string>
+    <string name="config_summary_word_wrap">Lines will break in new lines if they are too wide for the screen</string>
+    <string name="config_title_word_wrap">Word wrap</string>
+    <string name="config_summary_scroll_fling">Uncheck if you have performance issues</string>
+    <string name="config_title_scroll_fling">Fling to scroll faster</string>
+    <string name="config_title_color_theme">Color theme</string>
+    <string name="config_title_text_size">Text size</string>
+    <string name="config_cat_other">Other</string>
+    <string name="config_cat_save">Saving</string>
+    <string name="config_cat_undo">Undo</string>
+    <string name="config_cat_search">Search</string>
+    <string name="config_title_end_of_lines">End of lines</string>
+    <string name="config_title_encoding">Encoding</string>
+    <string name="config_title_auto_save">Auto Save</string>
+    <string name="config_summary_auto_save">Automatically saves the file being edited when the app goes in background</string>
+    <string name="config_summary_auto_save_overwrite_on">Auto save will overwrite existing files</string>
+    <string name="config_summary_auto_save_overwrite_off">Auto save will only work with new files</string>
+    <string name="config_title_auto_save_overwrite">Overwrite existing files</string>
+    <string name="config_title_allow_undo_stack">Allow undo</string>
+    <string name="config_title_max_undo_stack">Maximum undo history</string>
+    <string name="config_title_search_wrap">Search wrap</string>
+    <string name="config_title_search_match_case">Search match case</string>
+    <string name="ui_hint_search">Search</string>
+    <string name="toast_intent_invalid_uri">Unable to open the file, URI is invalid</string>
+    <string name="toast_open_home_page_error">Default file not found, try setting a new one in the settings.</string>
+    <string name="toast_home_page_cant_read">"Can't open default file cause it isn't readable"</string>
+    <string name="toast_warn_no_undo_will_quit">Nothing to undo anymore. Press Back one more time to quit.</string>
+    <string name="menu_new">new</string>
+    <string name="menu_open">open</string>
+    <string name="menu_setting">setting</string>
+    <string name="onTemplate">onTemplate</string>
+    <string name="onright">onRight</string>
+    <string name="onapi">onApi</string>
+    <string name="onsave">onSave</string>
+    <string name="onplay">onPlay</string>
+    <string name="onback">onBack</string>
+    <string name="onsearch">onSearch</string>
+    <string name="onhistory">onHistory</string>
+    <string name="onsetting">onSetting</string>
+    <string name="ui_save">Save</string>
+    <string name="ui_no_save">"Don't save"</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_save_text">"Do you want to save your document? \nAny unsaved changes will be lost. "</string>
+    <string name="toast_warn_no_undo">Nothing to undo anymore.</string>
+    <string name="toast_search_no_input">Type a text to search in the search bar</string>
+    <string name="toast_search_not_found">No match was found in the current file</string>
+    <string name="toast_search_eof">No more match found in the current file</string>
+    <string name="toast_memory_open">Unable to open the file, not enough memory</string>
+    <string name="toast_open_error">Unable to open the file (maybe the file is too big, or corrupted)</string>
+    <string name="toast_save_null">Unable to save, path is null</string>
+    <string name="toast_file_saved_auto">"The opened file was saved automatically, and will be opened at next startup"</string>
+    <string name="toast_save_temp">Unable to save to temp file</string>
+    <string name="toast_save_delete">Unable to save (error while copying temp file to save location)</string>
+    <string name="toast_save_rename">Unable to save (error while copying temp file to save location)</string>
+    <string name="toast_save_success">File saved</string>
+    <string name="symbol_close">symbol_close</string>
+    <string name="lorem_ipsum">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas porttitor neque semper sem fermentum pretium. Sed pharetra dui faucibus massa malesuada in condimentum mi gravida."</string>
+    <string name="finish">OK</string>
+    <string name="api_prompt_item_value">Please enter a value for a variable</string>
+    <string name="expand_all">Expand All</string>
+    <string name="collapse_all">Collapse All</string>
+    <string name="console_prompt_no">No</string>
+    <string name="console_prompt_yes">Yes</string>
+    <string name="keyboard_button">keyboard_button</string>
+    <string name="script_search">search</string>
+    <string name="script_add">add</string>
+    <string name="script_view">view</string>
+    <string name="script_interpreters">interpreters</string>
+    <string name="script_triggers">triggers</string>
+    <string name="script_logcat">logcat</string>
+    <string name="script_setting">setting</string>
+    <string name="script_preferences">preferences</string>
+    <string name="script_refresh">refresh</string>
+    <string name="script_help">help</string>
+    <string name="script_about">script_about</string>
+    <string name="menu_back">undo</string>
+    <string name="script_example">install example</string>
+    <string name="current_color">Current Color:</string>
+    <string name="invalid_color">Invalid Value of Color</string>
+    <string name="insert_color">Insert a Color</string>
+
+    <!-- 以下为按钮图标 -->
+    <string name="icon_user">&#xf007;</string>
+    <string name="icon_add">&#xf067;</string>
+    <string name="icon_readmore">&#xf178;</string>
+    <string name="icon_answer">&#xf095;</string>
+    <string name="icon_mute">&#xf131;</string>
+    <string name="icon_like">&#xf087;</string>
+    <string name="icon_share">&#xf064;</string>
+    <string name="icon_follow">&#xf005;</string>
+    <string name="icon_android">&#xf17b;</string>
+    <string name="icon_dropbox">&#xf16b;</string>
+    <string name="icon_soundcloud">&#xf1be;</string>
+    <string name="icon_spotify">&#xf1bc;</string>
+    <string name="icon_vine">&#xf1ca;</string>
+    <string name="icon_twitter">&#xf099;</string>
+    <string name="icon_tumbler">&#xf173;</string>
+    <string name="icon_stackoverflow">&#xf16c;</string>
+    <string name="icon_gplus">&#xf0d5;</string>
+    <string name="icon_facebook">&#xf09a;</string>
+    <string name="icon_entypo_facebook">&#59140;</string>
+    <string name="icon_behance">&#xf1b4;</string>
+    <string name="icon_dribble">&#xf17d;</string>
+    <string name="icon_send">&#xf1d8;</string>
+    <string name="icon_download">&#xf0ed;</string>
+    <string name="icon_upload">&#xf0ee;</string>
+    <string name="icon_config">&#xf085;</string>
+
+    <!-- 以下为代码里的字符串 -->
+    <string name="s_Insert">Insert</string>
+    <string name="s_Prompt">Prompt</string>
+    <string name="s_Help">Help</string>
+    <string name="s_Unpackok">Unzip complete,Click the center circle disappeared</string>
+    <string name="s_Start_Server">Start Server</string>
+    <string name="s_Preferences">Preferences</string>
+    <string name="s_Add">Add</string>
+    <string name="s_Public">Public</string>
+    <string name="s_Private">Private</string>
+    <string name="s_JumptoBottom">Jump to Bottom</string>
+    <string name="s_Share">Share</string>
+    <string name="s_Copy">Copy</string>
+    <string name="s_Copiedtoclipboard">Copied to clipboard</string>
+    <string name="s_SL4AService">SL4A Service</string>
+    <string name="s_SL4ATService">SL4A Trigger Service</string>
+    <string name="s_SL4AServiceStart">SL4A Trigger Service started</string>
+    <string name="s_Taptoviewrunningscripts">Tap to view running scripts</string>
+    <string name="s_Taptoview">Tap to view </string>
+    <string name="s_Taptoviewtriggers">Tap to view triggers</string>
+    <string name="s_Runningscript"> running script</string>
+    <string name="s_Unabletorun ">Unable to run </string>
+    <string name="s_Actionnotimplemented">Action not implemented: </string>
+    <string name="s_Started"> started.</string>
+    <string name="s_Exited"> exited.</string>
+    <string name="s_Failedtocreate">Failed to create scripts directory.</string>
+    <string name="s_PleaseCheck">Please check the permissions of your external storage media.</string>
+    <string name="s_Cannotdecompile">The file type can not decompile</string>
+    <string name="s_Rename">Rename</string>
+    <string name="s_ExternalEditor">External Editor</string>
+    <string name="s_Delete">Delete</string>
+    <string name="s_Decompile">Decompile</string>
+    <string name="s_Build">Packaging Project</string>
+    <string name="s_RunForeground">Run Foreground</string>
+    <string name="s_RunBackground">Run Background</string>
+    <string name="s_Edit">Edit</string>
+    <string name="s_Woulddelete ">Would you like to delete </string>
+    <string name="s_FolderName">Folder Name</string>
+    <string name="s_AddFolder">Add Folder</string>
+    <string name="s_Nameempty">name is empty.</string>
+    <string name="s_Exists">%s already exists.</string>
+    <string name="s_Cannot_create">Cannot create %s.</string>
+    <string name="s_New_File">New File</string>
+    <string name="s_Cannotrename">Cannot rename %s</string>
+    <string name="s_Folder">Folder</string>
+    <string name="s_Stop">Stop</string>
+    <string name="s_Remove">Remove</string>
+    <string name="s_CannotuseDeconpile">Cannot use the decompilation function</string>
+    <string name="s_DecompileOne">decompile-1-High probability</string>
+    <string name="s_DecompileTwo">decompile-2-High probability</string>
+    <string name="s_DecompileThree">decompile-3-Low probability</string>
+    <string name="s_DecompileFour">decompile-4-Low probability</string>
+    <string name="s_Cannotrun">"Can't run this type."</string>
+    <string name="s_Longtouchtoinsert">Long press list item into the template</string>
+    <string name="s_NotFindTemplate">Available template file not found</string>
+    <string name="s_UnableOpeneditor">"Unable to open external editor\n"</string>
+
+    <!-- Terminal -->
+    <string name="TerminalColors">Terminal Colors</string>
+    <string name="ForegroundColor">Foreground color</string>
+    <string name="BackgroundColor">Background color</string>
+    <string name="Reset">Reset</string>
+
+    <!-- preferences -->
+    <string name="usagetracking1">Usage tracking</string>
+    <string name="usagetracking2">Allow anonymous usage tracking.</string>
+    <string name="use_service_port1">Server Port</string>
+    <string name="use_service_port2">Port to use for running server. Leave at 0 for random selection.</string>
+    <string name="show_all_files">Show all files</string>
+    <string name="use_quick_menu">Use QuickActions Menu</string>
+    <string name="helpForceBrowser">Force API Help to use default Android Browser</string>
+    <string name="enableAutoClose">When enabled, quotes and brackets are automatically completed.</string>
+    <string name="editor_no_wrap1">Do not wrap text in editor</string>
+    <string name="editor_no_wrap2">No Wrap</string>
+    <string name="editor_auto_indent1">Auto Indent</string>
+    <string name="editor_auto_indent2">Auto Indent Disabled</string>
+    <string name="editor_auto_indent3">Auto Indent Enabled</string>
+
+</resources>

@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="help_force_browser">强制 API 浏览器</string>
+    <string name="stop_all">停止所有</string>
+    <string name="application_title">SL4A</string>
+    <string name="application_nice_title">Android脚本层</string>
+    <string name="wiki_url">http://code.google.com/p/android-scripting/wiki/TableOfContents?tm=6</string>
+    <string name="youtube_url">http://www.youtube.com/view_play_list?p=07A81E6CE96F158B</string>
+    <string name="text_preferences">文本</string>
+    <string name="title_fontsize_preference">字体大小</string>
+    <string name="summary_fontsize_preference">选择像素的字符的高度</string>
+    <string name="dialog_title_fontsize_preference">字体大小</string>
+    <string name="title_color_preference">颜色</string>
+    <string name="summary_color_preference">选择文本颜色</string>
+    <string name="dialog_title_color_preference">文本颜色</string>
+    <string name="keyboard_preferences">键盘</string>
+    <string name="title_controlkey_preference">控制键</string>
+    <string name="summary_controlkey_preference">选择控制键</string>
+    <string name="dialog_title_controlkey_preference">控制键</string>
+    <string name="shell_preferences">Shell</string>
+    <string name="title_shell_preference">命令行</string>
+    <string name="summary_shell_preference">指定的命令行</string>
+    <string name="dialog_title_shell_preference">Shell</string>
+    <string name="title_initialcommand_preference">初始命令</string>
+    <string name="summary_initialcommand_preference">设置初始命令</string>
+    <string name="dialog_title_initialcommand_preference">初始命令</string>
+    <string name="no_scripts_message">通过菜单按钮实现菜单</string>
+    <string name="no_apis_message">没有找到匹配的API</string>
+    <string name="notification_action_message">打开脚本 监控</string>
+    <string name="no_running_scripts_message">没有正在运行的脚本</string>
+    <string name="script_number_message">运行脚本数量:\t</string>
+    <string name="no_triggers_message">没有触发器</string>
+    <string name="no_bluetooth_devices_message">没有发现蓝牙设备</string>
+    <string name="search_description_scripts">搜索脚本</string>
+    <string name="search_description_apis">搜索 APIs</string>
+    <string name="prompt_process_exited">进程已退出\n关闭终端?</string>
+    <string name="prompt_confirm_exit">确认退出\n杀死进程?</string>
+    <string name="terminal_copy_done">复制 %1$d 字节 到剪贴板</string>
+    <string name="terminal_copy_start">触摸和拖动\n或者使用定向 pad\n来选择要复制的区域</string>
+    <string name="terminal_menu_close">关闭</string>
+    <string name="terminal_menu_copy">复制</string>
+    <string name="terminal_menu_copy_all">复制所有</string>
+    <string name="terminal_menu_paste">粘贴</string>
+    <string name="terminal_menu_resize">Force 大小</string>
+    <string name="button_resize">重新设置大小</string>
+
+    <!-- Name for the scrollback size preference -->
+    <string name="pref_scrollback_title">回滚的大小</string>
+    <!-- Description of the scrollback size preference -->
+    <string name="pref_scrollback_summary">每个控制台回滚大小</string>
+    <!-- Name for the rotation mode preference -->
+    <string name="pref_rotation_title">旋转模式</string>
+    <!-- Summary for the rotation mode preference -->
+    <string name="pref_rotation_summary">如何改变旋转时,键盘弹出/关闭</string>
+    <!-- Name for the full screen preference -->
+    <string name="pref_fullscreen_title">全屏</string>
+    <!-- Summary for the full screen preference -->
+    <string name="pref_fullscreen_summary">控制台隐藏状态栏</string>
+    <!-- Name for the keyboard shortcuts preference -->
+    <string name="pref_keymode_title">目录的快捷方式</string>
+    <!-- Summary for the keyboard shortcuts preference -->
+    <string name="pref_keymode_summary">选择怎样使用 Alt for \'/\' and Shift for Tab</string>
+    <!-- Name for the camera shortcut usage preference -->
+    <string name="pref_camera_title">相机快捷键</string>
+    <!-- Summary for the camera shortcut usage preference -->
+    <string name="pref_camera_summary">选择照相按钮触发的快捷方式</string>
+    <!-- Name for the keep screen on preference -->
+    <string name="pref_keepalive_title">保持屏幕常亮</string>
+    <!-- Summary for the camera shortcut usage preference -->
+    <string name="pref_keepalive_summary">防止屏幕关闭当控制台工作时</string>
+    <!-- Name for the haptic feedback (bumpy arrow) preference -->
+    <string name="pref_bumpyarrows_title">Bumpy arrows</string>
+    <!-- Summary for the haptic feedback (bumpy arrow) preference -->
+    <string name="pref_bumpyarrows_summary">震动 when sending arrow keys from trackball</string>
+    <string name="pref_hidekeyboard_title">隐藏键盘</string>
+    <string name="pref_hidekeyboard_summary">启动时隐藏终端的软键盘</string>
+    <!-- Category title for the Terminal Bell preferences -->
+    <string name="pref_bell_category">终端振铃</string>
+    <!-- Checkbox preference title for the audible terminal bell feature -->
+    <string name="pref_bell_title">Audible bell</string>
+    <!-- Title for the slider preference to set the volume -->
+    <string name="pref_bell_volume_title">铃声音量</string>
+    <!-- Checkbox preference title for the vibrate on terminal bell feature -->
+    <string name="pref_bell_vibrate_title">振动铃</string>
+    <string name="pref_fontsize_title">字体大小 (pt)</string>
+    <!-- Setting for what key code is sent to the server when DEL key is pressed. -->
+    <string name="pref_delkey_title">删除键</string>
+    <!-- Summary for field asking what key code is sent to the server when DEL key is pressed. -->
+    <string name="pref_delkey_summary">The key code sent 当删除键按下时</string>
+    <!-- Host character encoding preference title -->
+    <string name="pref_encoding_title">编码</string>
+    <!-- Host character encoding preference summary -->
+    <string name="pref_encoding_summary">the host 字符编码</string>
+    <string name="pref_hide_notifications">隐藏通知栏</string>
+    <!-- Default screen rotation preference selection -->
+    <string name="list_rotation_default">默认</string>
+    <string name="list_rotation_land">强制横屏</string>
+    <string name="list_rotation_port">强制竖屏</string>
+    <!-- Selection to indicate the rotation should be selected automatically based on the tilt sensor. -->
+    <string name="list_rotation_auto">自动</string>
+    <!-- Preference selection to indicate use of right side of keyboard for special shortcuts. -->
+    <string name="list_keymode_right">使用右键</string>
+    <!-- Preference selection to indicate use of left side of keyboard for special shortcuts. -->
+    <string name="list_keymode_left">使用左键</string>
+    <!-- Preference selection to indicate never to use special shortcut keys. -->
+    <string name="list_keymode_none">禁用</string>
+    <!-- Selection to indicate pressing the Camera button should send "Ctrl+A then Space". -->
+    <string name="list_camera_ctrlaspace">Ctrl+A then Space</string>
+    <!-- Selection to indicate pressing the Camera button should send "Ctrl+A". -->
+    <string name="list_camera_ctrla">Ctrl+A</string>
+    <!-- Selection to indicate pressing the Camera button should send the "Esc" key. -->
+    <string name="list_camera_esc">Esc</string>
+    <!-- Selection to indicate pressing the Camera button should send "Esc+A". -->
+    <string name="list_camera_esc_a">Esc+A</string>
+    <!-- Selection to indicate pressing the Camera button should send nothing at all. -->
+    <string name="list_camera_none">None</string>
+    <!-- Name for the backspace character -->
+    <string name="list_delkey_backspace">退格键</string>
+    <!-- Name for the ASCII DEL character -->
+    <string name="list_delkey_del">删除</string>
+
+    <!-- Window title for Help index -->
+    <string name="title_help">帮助</string>
+    <string name="help_acks">SL4A uses <a href="http://code.google.com/p/connectbot/">ConnectBot</a> terminal.</string>
+    <string name="help_intro">请选择一个题目下面关于特定主题的更多信息</string>
+    <string name="enable_auto_close">启用自动关闭</string>
+
+    <!-- 编辑器 -->
+    <string name="notice">提示</string>
+    <string name="title_editor">%1$s</string>
+    <string name="title_editor_dirty">%1$s *</string>
+    <string name="title_editor_readonly">[%1$s]</string>
+    <string name="title_settings">设置 </string>
+    <string name="config_cat_display">显示</string>
+    <string name="config_summary_line_numbers">在页面的左边显示的行数</string>
+    <string name="config_title_line_numbers">显示行数</string>
+    <string name="config_summary_word_wrap">如果屏幕太大,线条则在新的一行中断</string>
+    <string name="config_title_word_wrap">自动换行</string>
+    <string name="config_summary_scroll_fling">取消选中,如果有性能问题</string>
+    <string name="config_title_scroll_fling">快速滚动</string>
+    <string name="config_title_color_theme">颜色主题</string>
+    <string name="config_title_text_size">文字大小</string>
+    <string name="config_cat_other">其他</string>
+    <string name="config_cat_save">保存</string>
+    <string name="config_cat_undo">取消</string>
+    <string name="config_cat_search">搜索</string>
+    <string name="config_title_end_of_lines">行结束</string>
+    <string name="config_title_encoding">编码</string>
+    <string name="config_title_auto_save">自动保存</string>
+    <string name="config_summary_auto_save">后台时自动保存正在编辑的文件</string>
+    <string name="config_summary_auto_save_overwrite_on">自动保存会覆盖现有文件</string>
+    <string name="config_summary_auto_save_overwrite_off">新文件才会自动保存</string>
+    <string name="config_title_auto_save_overwrite">覆盖已存在的文件</string>
+    <string name="config_title_allow_undo_stack">允许撤消</string>
+    <string name="config_title_max_undo_stack">最大的撤销历史</string>
+    <string name="config_title_search_wrap">搜索换行</string>
+    <string name="config_title_search_match_case">搜索匹配大小</string>
+    <string name="ui_hint_search">搜索</string>
+    <string name="toast_intent_invalid_uri">无法打开文件</string>
+    <string name="toast_open_home_page_error">未找到默认的文件,尝试设置一个新的设置.</string>
+    <string name="toast_home_page_cant_read">无法打开默认的文件因为它无法读取</string>
+    <string name="toast_warn_no_undo_will_quit">无法撤消了,按返回再一次退出. </string>
+    <string name="menu_new">新建</string>
+    <string name="menu_open">打开</string>
+    <string name="menu_setting">设置</string>
+    <string name="onTemplate">打开模版</string>
+    <string name="onright">右缩进</string>
+    <string name="onapi">打开api浏览器</string>
+    <string name="onsave">保存</string>
+    <string name="onplay">运行</string>
+    <string name="onback">撤销</string>
+    <string name="onsearch">搜索</string>
+    <string name="onhistory">onHistory</string>
+    <string name="onsetting">设置</string>
+    <string name="ui_save">保存</string>
+    <string name="ui_no_save">不保存</string>
+    <string name="ui_cancel">取消</string>
+    <string name="ui_save_text">"你保存你的文件了吗？\n对任何未保存的更改都将丢失。"</string>
+    <string name="toast_warn_no_undo">无法撤消了.</string>
+    <string name="toast_search_no_input">键入文本在搜索栏来搜索</string>
+    <string name="toast_search_not_found">当前文件中没有找到匹配</string>
+    <string name="toast_search_eof">当前文件中没有找到更多匹配的</string>
+    <string name="toast_memory_open">无法打开文件,没有足够的内存</string>
+    <string name="toast_open_error">无法打开文件(可能文件太大,或损坏)</string>
+    <string name="toast_save_null">无法保存,路径是空的</string>
+    <string name="toast_file_saved_auto">自动保存失败</string>
+    <string name="toast_save_temp">无法保存临时文件</string>
+    <string name="toast_save_delete">无法保存(复制临时文件保存位置时出错)</string>
+    <string name="toast_save_rename">无法保存(复制临时文件保存位置时出错)</string>
+    <string name="toast_save_success">文件已保存</string>
+    <string name="symbol_close">关闭符号</string>
+    <string name="finish">确定</string>
+    <string name="api_prompt_item_value">请输入变量值</string>
+    <string name="expand_all">展开全部</string>
+    <string name="collapse_all">关闭全部</string>
+    <string name="console_prompt_no">否</string>
+    <string name="console_prompt_yes">是</string>
+    <string name="keyboard_button">键盘按钮</string>
+    <string name="script_search">搜索</string>
+    <string name="script_add">添加</string>
+    <string name="script_view">视图</string>
+    <string name="script_interpreters">解释器</string>
+    <string name="script_triggers">触发器</string>
+    <string name="script_logcat">logcat</string>
+    <string name="script_setting">设置</string>
+    <string name="script_preferences">偏好</string>
+    <string name="script_refresh">刷新</string>
+    <string name="script_help">帮助</string>
+    <string name="script_about">关于</string>
+    <string name="menu_other">其它</string>
+    <string name="menu_symbol">插入符号</string>
+    <string name="menu_color">插入颜色</string>
+    <string name="script_example">例子</string>
+    <string name="current_color">当前颜色： </string>
+    <string name="invalid_color">无效的颜色值</string>
+    <string name="insert_color">插入一个颜色</string>
+
+    <!-- 以下为代码里的字符串 -->
+    <string name="s_Insert">插入</string>
+    <string name="s_Prompt">提示</string>
+    <string name="s_Help">帮助</string>
+    <string name="s_Unpackok">解压完成点击中心圆圈消失</string>
+    <string name="s_Start_Server">启动服务器</string>
+    <string name="s_Preferences">偏好</string>
+    <string name="s_Add">添加</string>
+    <string name="s_Public">公共</string>
+    <string name="s_Private">私有</string>
+    <string name="s_JumptoBottom">跳到底部</string>
+    <string name="s_Share">分享</string>
+    <string name="s_Copy">复制</string>
+    <string name="s_Copiedtoclipboard">复制到粘贴板</string>
+    <string name="s_SL4AService">SL4A 服务</string>
+    <string name="s_SL4ATService">SL4A 触发器服务</string>
+    <string name="s_SL4AServiceStart">SL4A 触发器服务运行</string>
+    <string name="s_Taptoviewrunningscripts">触摸查看运行脚本</string>
+    <string name="s_Taptoview">触摸查看 </string>
+    <string name="s_Taptoviewtriggers">触摸查看触发器</string>
+    <string name="s_Runningscript"> 运行脚本</string>
+    <string name="s_Unabletorun ">无法运行 </string>
+    <string name="s_Actionnotimplemented">Action 没有实施: </string>
+    <string name="s_Started"> 开始</string>
+    <string name="s_Exited"> 退出</string>
+    <string name="s_Failedtocreate">创建脚本目录失败</string>
+    <string name="s_PleaseCheck">请检查您的外部存储介质的权限</string>
+    <string name="s_Cannotdecompile">该文件类型无法反编译</string>
+    <string name="s_Rename">重命名</string>
+    <string name="s_ExternalEditor">额外编辑器</string>
+    <string name="s_Delete">删除</string>
+    <string name="s_Decompile">反编译</string>
+    <string name="s_Build">打包项目</string>
+    <string name="s_RunForeground">前台运行</string>
+    <string name="s_RunBackground">后台运行</string>
+    <string name="s_Edit">编辑</string>
+    <string name="s_Woulddelete ">是否想删除 </string>
+    <string name="s_FolderName">文件夹名字</string>
+    <string name="s_AddFolder">添加文件夹</string>
+    <string name="s_Nameempty">名字为空</string>
+    <string name="s_Exists">%s 已经存在</string>
+    <string name="s_Cannot_create">无法创建 %s.</string>
+    <string name="s_New_File">新文件</string>
+    <string name="s_Cannotrename">无法重命名 %s</string>
+    <string name="s_Folder">文件夹</string>
+    <string name="s_Stop">停止</string>
+    <string name="s_Remove">移动</string>
+    <string name="s_CannotuseDeconpile">无法使用反编译功能</string>
+    <string name="s_DecompileOne">反编译脚本-1-成功率高</string>
+    <string name="s_DecompileTwo">反编译脚本-2-成功率高</string>
+    <string name="s_DecompileThree">反编译脚本-3-成功率低</string>
+    <string name="s_DecompileFour">反编译脚本-4-成功率低</string>
+    <string name="s_Cannotrun">"无法运行该类型"</string>
+    <string name="s_Longtouchtoinsert">长按列表项插入模版</string>
+    <string name="s_NotFindTemplate">没有找到可用模版文件</string>
+    <string name="s_UnableOpeneditor">"无法打开其它编辑器\n"</string>
+
+    <!-- preferences -->
+    <string name="usagetracking1">使用跟踪</string>
+    <string name="usagetracking2">允许匿名使用跟踪</string>
+    <string name="use_service_port1">服务器端口</string>
+    <string name="use_service_port2">运行服务器使用的端口,至少是 0 随机选择</string>
+    <string name="show_all_files">显示所有文件</string>
+    <string name="use_quick_menu">使用 快捷 菜单</string>
+    <string name="helpForceBrowser">强制使用默认浏览器查看api帮助</string>
+    <string name="enableAutoClose">当启用时,引号和括号将自动完成</string>
+    <string name="editor_no_wrap1">编辑的文本不换行</string>
+    <string name="editor_no_wrap2">No Wrap</string>
+    <string name="editor_auto_indent1">自动缩进</string>
+    <string name="editor_auto_indent2">禁用自动缩进</string>
+    <string name="editor_auto_indent3">开启自动缩进</string>
+
+</resources>
